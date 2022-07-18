@@ -34,9 +34,9 @@ header {
     margin-right: 1%;
 }
 
-#search {
+.search {
     height: 500px;
-    background-image: url('C:/Users/hp/Desktop/Edureka/ZomatoClone/img/Food/banner.png');
+    background-image: url("../banner.png") ;
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-size: 100% 500px;
