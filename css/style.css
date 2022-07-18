@@ -36,7 +36,7 @@ header {
 
 .search {
     height: 500px;
-    background-image: url("../banner.png") ;
+    background-image: url("../img/Food/banner.png") ;
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-size: 100% 500px;
