@@ -59,7 +59,7 @@ header {
     width: 500px;
     height: 40px;
     position: absolute;
-    margin-left: 25px;
+    margin-left: 50px;
     margin-top: 20px;
 
 }
@@ -71,17 +71,17 @@ header {
     font-size: 14px;
     background-color: #252027;
     border: #e9ad2b solid 1px;
-    color: #e9ad2b;
+    color: #d6562b;
 }
 
-#restro {
-    width: 215px;
+#kitchen {
+    width: 180px;
     height: 40px;
     text-align: center;
     font-size: 14px;
     background-color: #252027;
     border: #e9ad2b solid 1px;
-    color: #e9ad2b;
+    color: #d6562b;
 }
 
 #quicksearch {
@@ -124,6 +124,34 @@ header {
     float: left;
     margin: 3% 2% 5% 2%;
     
+}
+
+#container{
+    border: #d6562b solid 5px ;
+    width: 90%;
+    height: 800px;
+    margin: 5% 0% 5% 5%;
+}
+#filter{
+    border: #e9ad2b solid 5px ;
+    width: 20%;
+    height: 91%;
+    margin: 2.5% 0% 2.5% 2%;
+    float: left;
+}
+#ktab{
+    border: #e9ad2b solid 5px;
+    width: 72%;
+    height: 91%;
+    margin: 2.5% 0% 2.5% 25%;
+    /* display: block; */
+}
+.kcard{
+    border: #d6562b solid 5px;
+    width: 25%;
+    height: 40%;
+    float: left;
+    margin: 3% 3.6% 3% 3.6%;
 }
 
 footer {
