@@ -236,7 +236,7 @@ header {
     width: 95%;
     min-height: 150px;
     margin:5px 2.5% 2% 2.5% ;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .khead>h3{
