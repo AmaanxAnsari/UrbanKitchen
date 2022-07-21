@@ -178,6 +178,7 @@ header {
 
 #sortby {
     margin-top: 140px;
+    margin-bottom: 20px;
 }
 
 #sortby>h3 {
@@ -200,25 +201,29 @@ header {
 
 }
 
-#rating>h3 {
+#popular>h3 {
     color: gray;
     opacity: 80%;
     font-size: 30px;
     margin: 5% 0% 2% 0%;
 }
 
-#rating>span {
-    display: block;
-    color: gold;
-    font-size: 18px;
-    padding: 1px 1px 1px 10px;
+#popular>span {
+     border: #e9ad2b solid 1px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #e9ad2b;
+    float: left;
+    padding: 5px 7px 5px 7px;
+    margin: 1% 1% 1% 1%;
 }
 
 #ktab {
     
     width: 72%;
     height: 91%;
-    margin: 2.5% 0% 2.5% 25%;
+    margin: 4.5% 0% 2.5% 25%;
     /* display: block; */
 }
 
@@ -260,13 +265,18 @@ color: #8b8986;
 }
 .krate{
   /* border: #5bd514 solid 2px; */
-  border-radius: 10px;
+  border-radius: 6px;
   color: white;
-  background-color: #5bd514;
-  margin: 6% 0% 0% 3%;
+  /* background-color: #5bd514; */
+  margin: 5% 0% 0% 1%;
   float: left;
+  text-align: center;
   padding: 0px 2px 0px 2px;
   font-size: 15px;
+}
+.star{
+    font-size: 12.5px;
+    
 }
 
 .klocation{
@@ -286,9 +296,9 @@ color: #e9ad2b;
 .kcoupon{
 
     display: block;
-    font-size: 14px;
+    font-size: 14.5px;
     color: #d6562b;
-    margin: 17% 0% 0% 3%;
+    margin: 17% 0% 0% 0%;
     text-align: center;
     font-weight: bold;
 }
