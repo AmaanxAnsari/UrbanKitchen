@@ -223,22 +223,26 @@ header {
 }
 
 .kcard {
-    border: #d6562b solid 2px;
+    /* border: #d6562b solid 2px; */
+    border-radius: 15px;
     width: 25%;
-    height: 47%;
+    height: 44%;
     float: left;
     margin: 2% 3.6% 0% 3.6%;
 }
 
 .kimg {
-    width: 100%;
+    float: left;
+    width: 95%;
     min-height: 150px;
-    margin: auto;
+    margin:5px 2.5% 2% 2.5% ;
+    border-radius: 10px;
 }
 
 .khead>h3{
     color: #d6562b;
     margin: 2% 0% 0% 3%;
+    font-size: 23px;
     
 
 
@@ -248,51 +252,58 @@ header {
 .ksubhead>h5{
 color: #8b8986;
     margin: 1% 0% 0% 3%;
+    opacity: 80%;
     
 }
-
+#kbody>span{
+    text-align: center;
+}
 .krate{
   /* border: #5bd514 solid 2px; */
   border-radius: 10px;
   color: white;
   background-color: #5bd514;
-  margin: 3% 0% 0% 3%;
+  margin: 6% 0% 0% 3%;
   float: left;
   padding: 0px 2px 0px 2px;
   font-size: 15px;
 }
+
 .klocation{
 
     color: #e9ad2b;
-    margin: 2% 0% 0% 0%;
+    margin: 5% 0% 0% 2%;
     float: left;
+    font-weight: bold;
 }
 .kcost{
 color: #e9ad2b;
-    margin: 2% 0% 0% 0%;
+    margin: 5% 0% 0% 2%;
     float: left;
+    font-weight: bold;
 }
 
 .kcoupon{
 
-    display: inline;
-    font-size: 12px;
+    display: block;
+    font-size: 14px;
     color: #d6562b;
-    margin: 2% 0% 0% 3%;
-    float: left;
+    margin: 17% 0% 0% 3%;
     text-align: center;
+    font-weight: bold;
 }
 
 .kbutton{
-    border: #e9ad2b solid 1px;
+    border: #e9ad2b solid 2px;
     border-radius: 20px;
     display: block;
     font-size: 15px;
     font-weight: bold;
     color: #e9ad2b;
     padding: 5px 0px 5px 0px;
-    margin: 30% 1% 1% 1%;
+    margin: 5% 1% 0% 1%;
     text-align: center;
+    font-weight: bold;
 }
 
 
