@@ -1,5 +1,6 @@
 body {
     margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 a {
@@ -14,7 +15,6 @@ header {
 #brand {
     color: #e9ad2b;
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     float: left;
     margin-top: 6px;
     margin-left: 30px;
@@ -36,7 +36,7 @@ header {
 
 .search {
     height: 500px;
-    background-image: url("../img/Food/banner.png") ;
+    background-image: url("../img/Food/banner.png");
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-size: 100% 500px;
@@ -89,54 +89,56 @@ header {
     width: 80%;
     height: 650px;
     margin: 2.5% 2% 1% 10%;
-    
+
 }
 
 
-#quickhead{
- display: block;
- font-size: 60px;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- font-weight: bold;
- color: #e9ad2b;
- margin-left: 3%;
- text-align: center;
+#quickhead {
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    color: #e9ad2b;
+    margin-left: 3%;
+    text-align: center;
 }
 
 
-#quicksubhead{
+#quicksubhead {
     display: block;
     font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #d6562b;
     margin-left: 3%;
     /* line-height: 2; */
     text-align: center;
 
 }
-#quicktab{
-    margin-left:1% ;
+
+#quicktab {
+    margin-left: 1%;
 }
-.card{
+
+.card {
     border: #d6562b solid 2px;
     width: 29%;
     height: 170px;
     float: left;
     margin: 3% 2% 5% 2%;
-    
+
 }
-.cardimg{
+
+.cardimg {
     width: 185px;
     height: 170px;
 }
 
-#container{
-    border: #d6562b solid 5px ;
+#container {
+    border: #d6562b solid 5px;
     width: 90%;
     height: 800px;
     margin: 5% 0% 5% 5%;
 }
-#filter{
+
+#filter {
     /* border: #e9ad2b solid 5px ; */
     width: 20%;
     height: 91%;
@@ -145,51 +147,52 @@ header {
     display: block;
 }
 
-#filter>h1{
+#filter>h1 {
     font-size: 53px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #e9ad2b;
     margin: 0% 0% 0% 0%;
 }
-#cusinetype{
+
+#cusinetype {
     position: relative;
 }
-#cusinetype>span{
-    border: #e9ad2b solid 1px ;
+
+#cusinetype>span {
+    border: #e9ad2b solid 1px;
     border-radius: 20px;
-    font-size: 15px; 
-    font-weight: bold;   
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
     color: #e9ad2b;
     float: left;
     padding: 5px 7px 5px 7px;
     margin: 1% 1% 1% 1%;
 }
-#cusinetype>h3{
+
+#cusinetype>h3 {
     color: gray;
     opacity: 80%;
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 5% 0% 2% 0%;
 }
-#sortby{
+
+#sortby {
     margin-top: 140px;
 }
-#sortby>h3{
+
+#sortby>h3 {
     color: gray;
     opacity: 80%;
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 5% 0% 2% 0%;
 }
-#sortby>span{
-    border: #e9ad2b solid 1px ;
+
+#sortby>span {
+    border: #e9ad2b solid 1px;
     border-radius: 20px;
     display: block;
-    font-size: 15px; 
-    font-weight: bold;   
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
     color: #e9ad2b;
     padding: 5px 0px 5px 0px;
     margin: 2% 1% 1% 1%;
@@ -197,45 +200,110 @@ header {
 
 }
 
-#rating>h3{
+#rating>h3 {
     color: gray;
     opacity: 80%;
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 5% 0% 2% 0%;
 }
-#rating>span{
+
+#rating>span {
     display: block;
     color: gold;
     font-size: 18px;
     padding: 1px 1px 1px 10px;
 }
-#ktab{
-    /* border: #e9ad2b solid 5px; */
+
+#ktab {
+    
     width: 72%;
     height: 91%;
     margin: 2.5% 0% 2.5% 25%;
     /* display: block; */
 }
-.kcard{
-    border: #d6562b solid 5px;
+
+.kcard {
+    border: #d6562b solid 2px;
     width: 25%;
     height: 47%;
     float: left;
     margin: 2% 3.6% 0% 3.6%;
 }
-.kcontent{
+
+.kimg {
+    width: 100%;
+    min-height: 150px;
+    margin: auto;
+}
+
+.khead>h3{
+    color: #d6562b;
+    margin: 2% 0% 0% 3%;
+    
+
 
 }
-.kimg{
-    width: 100%;
+
+
+.ksubhead>h5{
+color: #8b8986;
+    margin: 1% 0% 0% 3%;
+    
 }
+
+.krate{
+  /* border: #5bd514 solid 2px; */
+  border-radius: 10px;
+  color: white;
+  background-color: #5bd514;
+  margin: 3% 0% 0% 3%;
+  float: left;
+  padding: 0px 2px 0px 2px;
+  font-size: 15px;
+}
+.klocation{
+
+    color: #e9ad2b;
+    margin: 2% 0% 0% 0%;
+    float: left;
+}
+.kcost{
+color: #e9ad2b;
+    margin: 2% 0% 0% 0%;
+    float: left;
+}
+
+.kcoupon{
+
+    display: inline;
+    font-size: 12px;
+    color: #d6562b;
+    margin: 2% 0% 0% 3%;
+    float: left;
+    text-align: center;
+}
+
+.kbutton{
+    border: #e9ad2b solid 1px;
+    border-radius: 20px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #e9ad2b;
+    padding: 5px 0px 5px 0px;
+    margin: 30% 1% 1% 1%;
+    text-align: center;
+}
+
+
+
+
+
+
 
 
 footer {
-    /* border: pink solid 5px; */
     height: 50px;
     background-color: #252027;
-    position: ;
 
 }
