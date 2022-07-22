@@ -38,7 +38,6 @@ header {
     height: 500px;
     background-image: url("../img/Food/banner.png");
     background-repeat: no-repeat;
-    /* background-size: cover; */
     background-size: 100% 500px;
 }
 
@@ -55,7 +54,6 @@ header {
 }
 
 #dropdown {
-    /* border: 2px solid orange; */
     width: 500px;
     height: 40px;
     position: absolute;
@@ -85,7 +83,7 @@ header {
 }
 
 #quicksearch {
-    /* border: green solid 5px; */
+
     width: 80%;
     height: 650px;
     margin: 2.5% 2% 1% 10%;
@@ -108,7 +106,6 @@ header {
     font-size: 40px;
     color: #d6562b;
     margin-left: 3%;
-    /* line-height: 2; */
     text-align: center;
 
 }
@@ -130,16 +127,31 @@ header {
     width: 185px;
     height: 170px;
 }
+#heading{
+
+    text-align: center;
+}
+
+#heading>h1{
+  color: #e9ad2b;
+  font-size: 50px;
+  margin: 2% 0% 0% 0%;
+}
+#heading>h3{
+  color: #d6562b;
+  font-size: 28px;
+  margin: 0% 0% 0% 0%;
+}
 
 #container {
-    border: #d6562b solid 5px;
+    border: #d6562b dashed 2px;
     width: 90%;
     height: 800px;
-    margin: 5% 0% 5% 5%;
+    margin: 1% 0% 5% 5%;
 }
 
 #filter {
-    /* border: #e9ad2b solid 5px ; */
+
     width: 20%;
     height: 91%;
     margin: 2.5% 0% 2.5% 2%;
@@ -209,7 +221,7 @@ header {
 }
 
 #popular>span {
-     border: #e9ad2b solid 1px;
+    border: #e9ad2b solid 1px;
     border-radius: 20px;
     font-size: 15px;
     font-weight: bold;
@@ -223,12 +235,10 @@ header {
     
     width: 72%;
     height: 91%;
-    margin: 4.5% 0% 2.5% 25%;
-    /* display: block; */
+    margin: 5% 0% 2.5% 25%;
 }
 
 .kcard {
-    /* border: #d6562b solid 2px; */
     border-radius: 15px;
     width: 25%;
     height: 44%;
@@ -241,21 +251,17 @@ header {
     width: 95%;
     min-height: 150px;
     margin:5px 2.5% 2% 2.5% ;
-    /* border-radius: 10px; */
 }
 
 .khead>h3{
     color: #d6562b;
     margin: 2% 0% 0% 3%;
     font-size: 23px;
-    
-
-
 }
 
 
 .ksubhead>h5{
-color: #8b8986;
+    color: #8b8986;
     margin: 1% 0% 0% 3%;
     opacity: 80%;
     
@@ -263,17 +269,18 @@ color: #8b8986;
 #kbody>span{
     text-align: center;
 }
+
+
 .krate{
-  /* border: #5bd514 solid 2px; */
   border-radius: 6px;
   color: white;
-  /* background-color: #5bd514; */
   margin: 5% 0% 0% 1%;
   float: left;
   text-align: center;
   padding: 0px 2px 0px 2px;
   font-size: 15px;
 }
+
 .star{
     font-size: 12.5px;
     
@@ -286,6 +293,7 @@ color: #8b8986;
     float: left;
     font-weight: bold;
 }
+
 .kcost{
 color: #e9ad2b;
     margin: 5% 0% 0% 2%;
@@ -316,15 +324,15 @@ color: #e9ad2b;
     font-weight: bold;
 }
 
-
-
-
-
-
-
-
-footer {
+footer{
+    width: 100%;
     height: 50px;
     background-color: #252027;
+    color: #e9ad2b;
+    text-align: center;
+    padding-top: 3px;
 
+}
+footer>h3>span{
+    color: crimson;
 }
