@@ -144,7 +144,7 @@ header {
 }
 
 #container {
-    border: #d6562b dashed 2px;
+    border: #8b8986 dashed 2px;
     width: 90%;
     height: 800px;
     margin: 1% 0% 5% 5%;
@@ -160,10 +160,12 @@ header {
 }
 
 #filter>h1 {
-    font-size: 53px;
-    text-align: center;
-    color: #e9ad2b;
-    margin: 0% 0% 0% 0%;
+    font-size: 35px;
+    float: left;
+    color: #d6562b;
+    text-decoration:underline;
+    margin: 0% 0% 7% 0%;
+    opacity: 80%;
 }
 
 #cusinetype {
