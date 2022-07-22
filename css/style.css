@@ -225,7 +225,7 @@ header {
 #popular>span {
     border: #e9ad2b solid 1px;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 15px ;
     font-weight: bold;
     color: #e9ad2b;
     float: left;
@@ -234,18 +234,16 @@ header {
 }
 
 #ktab {
-    
-    width: 72%;
-    height: 91%;
-    margin: 5% 0% 2.5% 25%;
+    width: 75%;
+    height: 85%;
+    margin: 3% 0% 2.5% 25%;
 }
 
 .kcard {
-    border-radius: 15px;
     width: 25%;
     height: 44%;
     float: left;
-    margin: 2% 3.6% 0% 3.6%;
+    margin: 3.5% 3.6% 0% 3.6%;
 }
 
 .kimg {
